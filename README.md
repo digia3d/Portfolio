@@ -1,70 +1,191 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_500,h_500/http://digitalnimarketinga3d.com/wp-content/uploads/2021/06/A3D-LOGO-1.png" alt="logo" width="140"  height="auto" />
 
-In the project directory, you can run:
+  <br/>
 
-### `npm start`
+  <h3><b>Alexandra Ujvari Portfolio</b></h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
 
-### `npm test`
+# 📗 Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Preview](#preview)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Link to Backend](#link-to-backend)
+  - [Link to kanban board](#link-to-kanban-board)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-### `npm run build`
+<!-- PROJECT DESCRIPTION -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 📖 [React Portfolio] <a name="about-project"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**React Portfolio** is a practical Portfolio project. In this project you can see my work, expirience and skills. I have used React, React Router, React Hooks, CSS, HTML, JavaScript, and Git.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run eject`
+### Tech Stack <a name="tech-stack"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- Features -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Key Features <a name="key-features"></a>
 
-## Learn More
+- **[About]**
+- **[Expirience]**
+- **[Testemonial]**
+- **[Projects]**
+- **[Services]**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- Preview -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Preview <a name="preview"></a>
 
-### Code Splitting
+<div align="center">
+  <img src="Portfolio.png" alt="screenshot" width="100%"  height="auto" />
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- LIVE DEMO -->
 
-### Making a Progressive Web App
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Live Demo Link](https://amazing-alex-portfolio.netlify.app)
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- GETTING STARTED -->
+
+### Prerequisites
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```bash
+$ git clone git@github.com:digia3d/react_portfolio.git
+```
+
+
+### Install
+
+Install this project with:
+
+```bash
+  npm install
+    cd react_portfolio
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm run start
+```
+
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy the project to Netlify by following these steps:
 
-### `npm run build` fails to minify
+- Create a new site on Netlify
+- Select your repository
+- Select the branch to deploy
+- Set the build command to `npm run build`
+- Set the publish directory to `build`
+- Click on deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## Author
+
+👤 **Aleksandra Ujvari**
+
+- GitHub: [@digia3d](https://github.com/digia3d)
+- LinkedIn: [Aleksandra (Alex) Ujvari](https://www.linkedin.com/in/aleksandraujvari/) 
+- Twitter: [@ujvari65](https://twitter.com/ujvari65)
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Acknowledgments to everuone whos code was used in this project.
+- Especially to [Microverse](https://www.microverse.org/) for the support and guidance, and to [Gustavo Carvalho]() for the design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## 📝 FAQ <a name="faq"></a>
+
+- **How can I contact you?** <br />
+  You can contact any of the authors of this project via their LinkedIn or Twitter accounts as listed above.
+
+- **How can I contribute?** <br />
+  You can contribute by opening issues or pull requests.
+
+- **How can I report a bug?** <br />
+  You can report bugs by opening an issue.
+
+- **How can I request a feature?** <br />
+  You can request a feature by opening an issue.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
