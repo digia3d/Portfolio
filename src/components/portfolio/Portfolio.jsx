@@ -81,7 +81,7 @@ const data = [
     id: 9,
     image: IMG9,
     title: 'Digitalni Marketing A3D',
-    description: 'Website done in WordPress',
+    description: 'Website made in wordpress',
     github_facebook: 'https://digitalnimarketinga3d.com/naslovna/',
     demo_page: 'https://digitalnimarketinga3d.com/o-nama/',
   },
