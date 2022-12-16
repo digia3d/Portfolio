@@ -41,6 +41,12 @@
   }
 }
 
+.description {
+  font-size: small;
+  color: var(--quaternary-color);
+  font-weight: bold;
+}
+
 /* ******************** MQueries (Small Devices) ******************** */
 
 @media screen and (max-width: 600px) {

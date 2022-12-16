@@ -40,10 +40,13 @@ function About() {
           </div>
 
           <p>
-            My name is Aleksandra. I am a FullStack developer.
-            Coding enthusiast...
-            Creating websites for friends, doing marketing, love to solve puzzles...
-            continuously learning, wanting to help the community
+            My name is Aleksandra Ujvari. I am a full-stack software developer,
+            currently enrolled at Microverse, a remote software development school,
+            where we learned remote pair programming.
+            I was the owner of a cloth workshop for 15 years.
+            I worked every day with different people and organized work so we can meet the deadline.
+            After graduating from Digital Marketing, I decided to start learning more about the development topics I'd used to create sites.
+            I am also a Freelance Designer with a demonstrated history of working in the information technology and services industry.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>

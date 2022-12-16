@@ -5,7 +5,7 @@ import { BsFillPatchCheckFill } from 'react-icons/bs';
 function Experience() {
   return (
     <section id="experience">
-      <h5>The Skils I Have</h5>
+      <h5>The Skills I Have</h5>
       <h2>My Experience</h2>
 
       <div className="container experience__container">
@@ -57,6 +57,47 @@ function Experience() {
           </div>
         </div>
 
+        <div className="experience__frontend">
+          <h3>Digital Marketing</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Social Media Marketing</h4>
+                <small className="text-light">90%</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Content Marketing</h4>
+                <small className="text-light">90%</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>SEO</h4>
+                <small className="text-light">70%</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Logo Design</h4>
+                <small className="text-light">70%</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>WordPres</h4>
+                <small className="text-light">70%</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
@@ -97,6 +138,7 @@ function Experience() {
             </article>
           </div>
         </div>
+        
       </div>
     </section>
   );

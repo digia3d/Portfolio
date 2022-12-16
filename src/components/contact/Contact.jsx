@@ -38,13 +38,13 @@ function Contact() {
             <RiMessengerLine className="contact__option__icon" />
             <h4>Messenger</h4>
             <h5>aleksandra ujvari</h5>
-            <a href="https://www.m.me/facebook.com/messages/" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="https://m.me/aleksandra.ujvari" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <FaWhatsapp className="contact__option__icon" />
             <h4>WhatsApp</h4>
             <h5>Aleksandra Ujvari</h5>
-            <a href="https://web.whatsapp.com/send?phone+3810616483485" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="https://web.whatsapp.com/send?phone=3810616483485" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
