@@ -1,0 +1,78 @@
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.experience__container > div {
+  padding: 2.4rem 5rem;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  background: var(--primary-color);
+  transition: var(--transition);
+}
+
+.experience__container > div:hover {
+  border: 1px solid var(--quaternary-color);
+  background: transparent;
+  cursor: default;
+  backdrop-filter: blur(15px);
+  color: var(--quaternary-color);
+}
+
+.experience__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--quaternary-color);
+}
+
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.experience__details {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience__details-icon {
+  margin-top: 6px;
+  color: var(--quinary-color);
+}
+
+/* ******************** MQueries Tablet ******************** */
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  .experience__container > div {
+    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .experience__content {
+    padding: 1rem;
+  }
+}
+
+/* ******************** MQueries (Small Devices) ******************** */
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    gap: 1rem;
+  }
+
+  .experience__container > div {
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+
+  .experience__content {
+    padding: 1rem;
+  }
+}
