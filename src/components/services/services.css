@@ -1,0 +1,80 @@
+.services__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 2rem 5rem;
+}
+
+.service {
+  background: var(--primary-color);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+.service:hover {
+  background: transparent;
+  border: 1px solid var(--secondary-color);
+  cursor: default;
+  backdrop-filter: blur(15px);
+}
+
+.service__head {
+  background: var(--secondary-color);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.service__head h3 {
+  font-size: 1rem;
+  color: var(--quaternary-color);
+  text-align: center;
+  height: 2.5rem;
+}
+
+.service__list {
+  padding: 2rem;
+  height: 20rem;
+  justify-content: left;
+}
+
+.service__list li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.service__list-icon {
+  color: var(--quaternary-color);
+  font-size: 2rem;
+  padding-bottom: 9px;
+}
+
+.service__list p {
+  color: var(--quaternary-color);
+  font-size: 0.9rem;
+}
+
+/* ******************** MQueries Tablet ******************** */
+
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .service {
+    border-radius: 0 0 1rem 1rem;
+    height: auto;
+  }
+}
+
+/* ******************** MQueries (Small Devices) ******************** */
+
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
