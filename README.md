@@ -68,7 +68,7 @@
 ### Preview <a name="preview"></a>
 
 <div align="center">
-  <img src="Portfolio.png" alt="screenshot" width="100%"  height="auto" />
+  <img src="./src/assets/projects/Portfolio.png" alt="screenshot" width="100%"  height="auto" />
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
