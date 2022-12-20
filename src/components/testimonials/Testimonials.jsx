@@ -9,42 +9,38 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import AVTR1 from '../../assets/projects/avatar1.jpg';
-import AVTR2 from '../../assets/projects/avatar2.jpg';
-import AVTR3 from '../../assets/projects/avatar6.jpg';
-import AVTR4 from '../../assets/projects/avatar5.jpg';
 
 const data = [
   {
-    avatar: AVTR1,
-    itemName: 'Tina Snow',
+    avatar: 'https://media.licdn.com/dms/image/D4D35AQHwi_F2plrScA/profile-framedphoto-shrink_400_400/0/1661412940590?e=1672131600&v=beta&t=5YUpNoN5RW3K7mSWcH1soPS4wXbOn1Yv_Mhv36RGXMc',
+    itemName: 'Asim Khan',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cum earum doloremque saepe officiis fugit, alias provident culpa, tempore perspiciatis expedita sequi tenetur ex, magni non aliquam suscipit debitis? Reiciendis?',
+      'Aleksandra is an exceptional human being with a strong background in front-end development using React JS and Ruby on Rails as a backend developer. Her approach is professional and methodical in understanding different concepts and applying them to real-life applications. I highly recommend her to any top company, and would prove to be a great asset to their organization.',
   },
   {
-    avatar: AVTR2,
-    itemName: 'Tina Snow',
+    avatar: 'https://media.licdn.com/dms/image/D5603AQEL2JUM95rxqA/profile-displayphoto-shrink_100_100/0/1670864145164?e=1677110400&v=beta&t=UdTlOxFXAKu0SskOkapVR5PscEgmoOr8dJWzrMgWV6U',
+    itemName: 'Htet Naing',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cum earum doloremque saepe officiis fugit, alias provident culpa, tempore perspiciatis expedita sequi tenetur ex, magni non aliquam suscipit debitis? Reiciendis?',
+      'Alex is a super friendly, helpful and supportive programmer. Whenever I am in trouble, as soon as I reached out to her, she always gave me exactly what I needed. Her help was always the one that leads to the solution. Even when we are not official peers of the group anymore, she always helped me whenever I am in trouble. It is indeed a pleasure to know her and working with her.',
   },
   {
-    avatar: AVTR3,
-    itemName: 'Shatta Wale',
+    avatar: 'https://media.licdn.com/dms/image/C4D03AQEjodjuxyUrlg/profile-displayphoto-shrink_100_100/0/1661894186402?e=1677110400&v=beta&t=zDidp0YFVQyZMP6TrQsTKvfmiDr_ZUi9oTdmT__X0jA',
+    itemName: 'Ushindi Bienvenu',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cum earum doloremque saepe officiis fugit, alias provident culpa, tempore perspiciatis expedita sequi tenetur ex, magni non aliquam suscipit debitis? Reiciendis?',
+      'Aleksandras stamina and ability to learn quickly are impressive. She does not allow herself to be defeated by the challenges she encounters. On the contrary, she draws her strength from her determination to finish the assignment. She exudes a good vibe around her. You can count on her to finish the assigned job.',
   },
   {
-    avatar: AVTR4,
-    itemName: 'Kwame Despito',
+    avatar: 'https://media.licdn.com/dms/image/D4D03AQGN0VL089d6pw/profile-displayphoto-shrink_100_100/0/1671032146137?e=1677110400&v=beta&t=6JH2O9W6nqx1bTs1xSubOAxAv0PUmaePgnbuXNiU57Q',
+    itemName: 'Tracey Kadenyi',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cum earum doloremque saepe officiis fugit, alias provident culpa, tempore perspiciatis expedita sequi tenetur ex, magni non aliquam suscipit debitis? Reiciendis?',
+      'I have had the pleasure of working with Alex on multiple pair-programming projects. She has a commendable work ethic; always shows up on time and ready to work. I was also impressed with her technical skills. Her willingness to share knowledge and learn makes her a good and efficient team-player. She is a good communicator, reliable, and fun to work with. Youd be lucky to have her on your team.',
   },
 ];
 
 function Testimonials() {
   return (
     <section className="pag">
-      <h5>Review from clients</h5>
+      <h5>Reviews from Clients</h5>
       <h2>Testimonials</h2>
 
       <Swiper
