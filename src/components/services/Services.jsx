@@ -17,19 +17,19 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Website Wireframe.</p>
+              <p>Website Wireframe</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>User Interface Design.</p>
+              <p>User Interface Design</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>User Experience (UX).</p>
+              <p>User Experience (UX)</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>User Research.</p>
+              <p>User Research</p>
             </li>
           </ul>
         </article>
@@ -42,7 +42,7 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>One Page App.</p>
+              <p>One Page App</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -50,15 +50,15 @@ function Services() {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Data Base.</p>
+              <p>Data Base</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>ROR App.</p>
+              <p>ROR App</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Rails API.</p>
+              <p>Rails API</p>
             </li>
           </ul>
         </article>
@@ -71,23 +71,23 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Blog post.</p>
+              <p>Blog post</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Ebook.</p>
+              <p>Ebook</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Contact Forms.</p>
+              <p>Contact Forms</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Presentations.</p>
+              <p>Presentations</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Checklists.</p>
+              <p>Checklists</p>
             </li>
           </ul>
         </article>
@@ -99,23 +99,23 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Social Marketing.</p>
+              <p>Social Marketing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Search engine optimization.</p>
+              <p>Search engine optimization</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Content Marketing.</p>
+              <p>Content Marketing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Logo Design.</p>
+              <p>Logo Design</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Mobile Marketing.</p>
+              <p>Mobile Marketing</p>
             </li>
           </ul>
         </article>

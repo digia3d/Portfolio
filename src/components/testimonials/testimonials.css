@@ -7,7 +7,7 @@
 
 .container .testimonials__container {
   width: 30%;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem !important;
 }
 
 .client__avatar {
@@ -37,6 +37,12 @@
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background: var(--quaternary-color);
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal, 
+.swiper-pagination-custom, .swiper-pagination-fraction { 
+  bottom: 0px !important;
 }
 
 @media screen and (max-width: 1024px) {
