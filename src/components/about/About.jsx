@@ -47,6 +47,7 @@ function About() {
             I worked every day with different people and organized work so we can meet deadlines.
             After graduating with a digital marketing degree, I decided to start learning more about the development topics I'd used to create sites.
             I am also a freelance designer with a demonstrated history of working in the information technology and services industry.
+            If you need someone like me, I am available for hire.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
