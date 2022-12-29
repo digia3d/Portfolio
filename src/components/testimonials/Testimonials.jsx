@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    avatar: 'https://media.licdn.com/dms/image/D4D35AQHwi_F2plrScA/profile-framedphoto-shrink_400_400/0/1661412940590?e=1672131600&v=beta&t=5YUpNoN5RW3K7mSWcH1soPS4wXbOn1Yv_Mhv36RGXMc',
+    avatar: 'https://media.licdn.com/dms/image/C4D03AQFfb5ItBDExyQ/profile-displayphoto-shrink_100_100/0/1660940699508?e=1677715200&v=beta&t=2BJ1BJiA1tYxcZ0ZlVi-YA5c5Yr0rZYDTal2kDV6viw',
     itemName: 'Asim Khan',
     review:
       'Aleksandra is an exceptional human being with a strong background in front-end development using React JS and Ruby on Rails as a backend developer. Her approach is professional and methodical in understanding different concepts and applying them to real-life applications. I highly recommend her to any top company, and would prove to be a great asset to their organization.',
