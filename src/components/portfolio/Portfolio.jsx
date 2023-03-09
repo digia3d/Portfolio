@@ -5,7 +5,7 @@ import IMG2 from '../../assets/projects/Calculator.png';
 import IMG3 from '../../assets/projects/Weather-app.png';
 import IMG4 from '../../assets/projects/cat_galery_home.png';
 import IMG5 from '../../assets/projects/You-Tube.png';
-import IMG6 from '../../assets/projects/bookstore.png';
+import IMG6 from '../../assets/projects/Screenshot_from_Hogwarts.png';
 import IMG7 from '../../assets/projects/Horoskop Helanke.png';
 import IMG8 from '../../assets/projects/A3Dfacebook.png';
 import IMG9 from '../../assets/projects/A3D.png';
@@ -56,10 +56,10 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Bookstore',
+    title: 'Hogvarts School of Magic',
     description: 'Built With: React, Redux, Linters (React & Redux), Git',
-    github_facebook: 'https://github.com/digia3d/Bookstore',
-    demo_page: 'https://digia3d.github.io/Bookstore/',
+    github_facebook: 'https://github.com/digia3d/Hogwarts',
+    demo_page: 'https://hogwartsschool.netlify.app',
   },
   {
     id: 7,
