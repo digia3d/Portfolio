@@ -27,7 +27,7 @@ const data = [
     title: 'Math-Magic',
     description: 'Built With: JavaScript-React -CSS -React',
     github: 'https://github.com/digia3d/Math-Magic ',
-    demo: 'https://62f4ef01f82f810008a11c40--a3dmath.netlify.app/',
+    demo: 'https://a3dmath.netlify.app/',
   },
   {
     id: 3,
