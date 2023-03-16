@@ -72,8 +72,8 @@
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: var(--quaternary-color);
-  background: linear-gradient(150deg, transparent, var(--secondary-color), transparent);
+  color: var(--quinary-color);
+  background: linear-gradient(160deg, transparent, var(--primary-color), transparent);
   backdrop-filter: blur(10px);
   padding: 0.5rem;
 }
