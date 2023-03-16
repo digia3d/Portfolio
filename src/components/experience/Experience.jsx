@@ -16,42 +16,36 @@ function Experience() {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">90%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">90%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">70%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">70%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>NodeJS</h4>
-                <small className="text-light">70%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">80%</small>
               </div>
             </article>
           </div>
@@ -64,35 +58,30 @@ function Experience() {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Social Media Marketing</h4>
-                <small className="text-light">90%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Content Marketing</h4>
-                <small className="text-light">90%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>SEO</h4>
-                <small className="text-light">70%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Logo Design</h4>
-                <small className="text-light">70%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>WordPres</h4>
-                <small className="text-light">70%</small>
               </div>
             </article>
           </div>
@@ -105,35 +94,30 @@ function Experience() {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Ruby</h4>
-                <small className="text-light">90%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Ruby On Rails</h4>
-                <small className="text-light">85%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Rails</h4>
-                <small className="text-light">85%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PostgreSQL</h4>
-                <small className="text-light">70%</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>API</h4>
-                <small className="text-light">60%</small>
               </div>
             </article>
           </div>
