@@ -4,6 +4,13 @@
   grid-gap: 2rem;
 }
 
+h6 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 .portfolio__item {
   background: var(--primary-color);
   padding: 1.2rem;
@@ -11,7 +18,9 @@
   border: 1px solid transparent;
   transition: var(--transition);
   backdrop-filter: blur(15px);
-  height: 100%;
+  height: 400px; /* fixed height */
+  display: flex; /* display as flex container */
+  flex-direction: column; /* flex items should be stacked vertically */
 }
 
 .portfolio__item:hover {
@@ -22,16 +31,25 @@
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  height: 30%;
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 3.5rem;
+}
+
+.portfolio__item .description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .portfolio__item-cta {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-top: auto; /* align to the bottom */
 }
 
 @media screen and (max-width: 1024px) {
@@ -40,14 +58,6 @@
     gap: 1.2rem;
   }
 }
-
-.description {
-  font-size: small;
-  color: var(--quaternary-color);
-  font-weight: bold;
-}
-
-/* ******************** MQueries (Small Devices) ******************** */
 
 @media screen and (max-width: 600px) {
   .portfolio__container {

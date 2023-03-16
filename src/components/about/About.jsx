@@ -1,7 +1,6 @@
 import React from 'react';
 import './about.css';
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import me3 from '../../assets/me3.png';
 
@@ -27,15 +26,9 @@ function About() {
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>2+ For Now</small>
-            </article>
-
-            <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>40+ Completed Projects</small>
+              <small>60+ Completed Projects</small>
             </article>
           </div>
 
