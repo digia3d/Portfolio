@@ -176,9 +176,6 @@ Give a ⭐️ if you like this project!
 - **How can I report a bug?** <br />
   You can report bugs by opening an issue.
 
-- **How can I request a feature?** <br />
-  You can request a feature by opening an issue.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
