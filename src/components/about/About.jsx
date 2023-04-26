@@ -2,7 +2,6 @@ import React from 'react';
 import './about.css';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import me3 from '../../assets/me3.png';
 
 function About() {
   return (
@@ -13,7 +12,7 @@ function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={me3} alt="About" />
+            <img src="https://i.ibb.co/7SD6K1s/me3.png" alt="About" />
           </div>
         </div>
 
@@ -33,17 +32,29 @@ function About() {
           </div>
 
           <p>
-            Hello! My name is Aleksandra Ujvari.
-            I am a full-stack software developer, currently enrolled at Microverse,
-            a remote software development school, where we learn remote pair programming.
-            Prior to becoming a full-stack software developer I was the owner of a cloth workshop for 15 years.
-            I worked every day with different people and organized work so we can meet deadlines.
-            After graduating with a digital marketing degree, I decided to start learning more about the development topics I&apos;d used to create sites.
-            I am also a freelance designer with a demonstrated history of working in the information technology and services industry.
-            If you need someone like me, I am available for hire.
+            Hello! My name is Aleksandra Ujvari, a full-stack software
+            developer with a passion for coding and problem-solving. As a
+            previous owner of a cloth workshop, I developed excellent
+            communication and organization skills, which I&apos;ve implemented in my
+            work as a developer. After graduating with a digital marketing
+            degree, I decided to pursue my passion for coding and enrolled in
+            Microverse, a remote software development school, where I learned
+            the importance of remote pair programming. I am committed to clean
+            code and continuous learning, always seeking to expand my knowledge
+            and skills in the field. I have experience creating websites for
+            friends and family and find satisfaction in solving puzzles and
+            optimizing code. I can help you build a product, feature, or
+            website. Please feel free to look through some of my work and
+            experience, and if you like what you see and have a project you need
+            coded, don&apos;t hesitate to contact me. I&apos;m also a freelance designer
+            with a demonstrated history of working in the information technology
+            and services industry. If you need someone like me, I am available
+            for hire.
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let&apos;s Talk
+          </a>
         </div>
       </div>
     </section>
