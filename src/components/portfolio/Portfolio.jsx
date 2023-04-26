@@ -1,21 +1,12 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/projects/doc_appointments_preview.png';
-import IMG2 from '../../assets/projects/Calculator.png';
-import IMG3 from '../../assets/projects/Weather-app.png';
-import IMG4 from '../../assets/projects/cat_galery_home.png';
-import IMG5 from '../../assets/projects/You-Tube.png';
-import IMG6 from '../../assets/projects/Screenshot_from_Hogwarts.png';
-import IMG7 from '../../assets/projects/Horoskop Helanke.png';
-import IMG8 from '../../assets/projects/A3Dfacebook.png';
-import IMG9 from '../../assets/projects/A3D.png';
 
 /* DO NOT USE IMAGES IN PRODUCTION */
 
 const data = [
   {
     id: 1,
-    image: IMG1,
+    image: 'https://i.ibb.co/pzTnSRs/doc-appointments-preview.png',
     title: 'Doctor Appointments',
     description: 'Built With: React, Redux, Ruby on Rails, PostgreSql, Linters (React & Redux), Git ',
     github: 'https://github.com/digia3d/Doctor-Appointment_front-end',
@@ -23,7 +14,7 @@ const data = [
   },
   {
     id: 2,
-    image: IMG2,
+    image: 'https://i.ibb.co/nkRwtTX/Calculator.png',
     title: 'Math-Magic',
     description: 'Built With: JavaScript-React -CSS -React',
     github: 'https://github.com/digia3d/Math-Magic ',
@@ -31,7 +22,7 @@ const data = [
   },
   {
     id: 3,
-    image: IMG3,
+    image: 'https://i.ibb.co/ysyd4Gf/Weather-app.png',
     title: 'Weather App',
     description: 'Built With: html/scss/js/React/redux/API',
     github: 'https://github.com/digia3d/weather_app',
@@ -39,7 +30,7 @@ const data = [
   },
   {
     id: 4,
-    image: IMG4,
+    image: 'https://i.ibb.co/BnZpSj7/cat-galery-home.png',
     title: 'Cats Gallery',
     description: 'Built With: Javascript, Html, Css, Jest, Webpack',
     github: 'https://github.com/digia3d/cat-gallery',
@@ -47,7 +38,7 @@ const data = [
   },
   {
     id: 5,
-    image: IMG5,
+    image: 'https://i.ibb.co/bJfSWh5/You-Tube.png',
     title: 'YouTube Clone',
     description: 'Built With: HTML5 and CSS3',
     github: 'https://github.com/digia3d/YouTube-clone',
@@ -55,7 +46,7 @@ const data = [
   },
   {
     id: 6,
-    image: IMG6,
+    image: 'https://i.ibb.co/Xykp9Nf/Screenshot-from-Hogwarts.png',
     title: 'Hogvarts School of Magic',
     description: 'Built With: React, Redux, Linters (React & Redux), Git',
     github: 'https://github.com/digia3d/Hogwarts',
@@ -66,7 +57,7 @@ const data = [
 const newData = [
   {
     id: 7,
-    image: IMG7,
+    image: 'https://i.ibb.co/tCyGhb8/Horoskop-Helanke.png',
     title: 'Facebook Page',
     description: 'Part of Social Media Marketing campaign for local business',
     facebook: ' https://www.facebook.com/horoskophelanke',
@@ -74,7 +65,7 @@ const newData = [
   },
   {
     id: 8,
-    image: IMG8,
+    image: 'https://i.ibb.co/ykJxvTL/A3-Dfacebook.png',
     title: 'A3D Facebook Page',
     description: 'Part of Social Media Marketing campaign for Marketing Agency',
     facebook: 'https://www.facebook.com/a3ddigital',
@@ -82,7 +73,7 @@ const newData = [
   },
   {
     id: 9,
-    image: IMG9,
+    image: 'https://i.ibb.co/Rjqgz5p/Sajt.png',
     title: 'Digitalni Marketing A3D',
     description: 'Website made in wordpress',
     facebook: 'https://www.facebook.com/a3ddigital',
@@ -92,7 +83,7 @@ const newData = [
 
 function Portfolio() {
   return (
-    <section>
+    <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
