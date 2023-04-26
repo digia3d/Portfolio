@@ -88,7 +88,7 @@ const newData = [
     facebook: 'https://www.facebook.com/a3ddigital',
     page: 'https://digitalnimarketinga3d.com/o-nama/',
   },
-]
+];
 
 function Portfolio() {
   return (
@@ -137,9 +137,10 @@ function Portfolio() {
           newData.map(({
             id, image, title, description, facebook, page,
           }) => (
-            <article key={id}
-              
-              className="portfolio__item">
+            <article
+              key={id}
+              className="portfolio__item"
+            >
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>

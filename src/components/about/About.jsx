@@ -36,9 +36,9 @@ function About() {
             Hello! My name is Aleksandra Ujvari.
             I am a full-stack software developer, currently enrolled at Microverse,
             a remote software development school, where we learn remote pair programming.
-            Prior to becoming a full-stack software developer I was the owner of a cloth workshop for 15 years.
+            Prior to becoming a full-stack software developer I was the owner of a cloth workshop for 15 years.
             I worked every day with different people and organized work so we can meet deadlines.
-            After graduating with a digital marketing degree, I decided to start learning more about the development topics I'd used to create sites.
+            After graduating with a digital marketing degree, I decided to start learning more about the development topics I&apos;d used to create sites.
             I am also a freelance designer with a demonstrated history of working in the information technology and services industry.
             If you need someone like me, I am available for hire.
           </p>
