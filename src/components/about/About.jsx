@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
+import Alex from './assets/Alex.png';
 
 function About() {
   return (
@@ -12,7 +13,7 @@ function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src="https://i.ibb.co/7SD6K1s/me3.png" alt="About" />
+            <img src={Alex} alt="About" />
           </div>
         </div>
 
