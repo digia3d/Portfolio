@@ -2,6 +2,7 @@ import React from 'react';
 import './header.css';
 import CTA from './CTA';
 import HeaderSocial from './HeaderSocials';
+import me3 from './assets/me3.png';
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
         <HeaderSocial />
 
         <div className="alex">
-          <img src="https://i.ibb.co/sWcpRjr/Alex.png" alt="Alex" id="alex" />
+          <img src={me3} alt="About" />
         </div>
 
         <a href="#contact" className="scroll__down">Scroll Down</a>
