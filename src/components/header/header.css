@@ -1,5 +1,5 @@
 header {
-  height: 150vh;
+  height: 100vh;
   padding-top: 5rem;
   overflow: hidden;
 }
@@ -43,13 +43,22 @@ header {
 .alex {
   position: absolute;
   width: 20rem;
+  height: 20rem;          /* KLJUČ */
   left: calc(50% - 10rem);
-  background: linear-gradient(var(--primary-color), transparent);
   margin-top: 4rem;
-  border-radius: 12rem 12rem;
+  background: linear-gradient(var(--primary-color), transparent);
+  border-radius: 50%;
   overflow: hidden;
-  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  padding: 0;             /* uklanjamo jaje 🥚 */
+  display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.alex img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* =================== Scroll Down =================== */
@@ -67,7 +76,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 100vh;
   }
 }
 

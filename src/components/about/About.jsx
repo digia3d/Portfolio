@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import Alex from './assets/Alex.png';
+import Alex from '../../assets/about/Alex.png';
 
 function About() {
   return (
@@ -22,7 +22,7 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working Experience</small>
+              <small>3+ Years Working Experience</small>
             </article>
 
             <article className="about__card">

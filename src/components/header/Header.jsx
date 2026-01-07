@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 import CTA from './CTA';
 import HeaderSocial from './HeaderSocials';
-import me3 from './assets/me3.png';
+import me3 from '../../assets/header/me3.png';
 
 function Header() {
   return (
