@@ -1,12 +1,21 @@
 import React from 'react';
 import './portfolio.css';
+import DoctorAppointmentImg from '../../assets/projects/Doctor-Appointment.png';
+import MathMagicianImg from '../../assets/projects/Math-Magician.png';
+import WeatherAppImg from '../../assets/projects/Weather-App.png';
+import CatGaleryImg from '../../assets/projects/Cat-Galery.png';
+import YouTubeImg from '../../assets/projects/You-Tube.png';
+import AwesomeBooksImg from '../../assets/projects/Awesome-Books.png';
+import HarryPotterImg from '../../assets/projects/Harry-Potter.jpg';
+import HoroskopHelankefbImg from '../../assets/projects/Horoskop-Helanke-fb.png';
+import A3DfbImg from '../../assets/projects/A3D-fb.png';
 
 /* DO NOT USE IMAGES IN PRODUCTION */
 
 const data = [
   {
     id: 1,
-    image: 'https://i.ibb.co/pzTnSRs/doc-appointments-preview.png',
+    image: DoctorAppointmentImg,
     title: 'Doctor Appointments',
     description: 'Built With: React, Redux, Ruby on Rails, PostgreSql, Linters (React & Redux), Git ',
     github: 'https://github.com/digia3d/Doctor-Appointment_front-end',
@@ -14,7 +23,7 @@ const data = [
   },
   {
     id: 2,
-    image: 'https://i.ibb.co/nkRwtTX/Calculator.png',
+    image: MathMagicianImg,
     title: 'Math-Magic',
     description: 'Built With: JavaScript-React -CSS -React',
     github: 'https://github.com/digia3d/Math-Magic ',
@@ -22,7 +31,7 @@ const data = [
   },
   {
     id: 3,
-    image: 'https://i.ibb.co/ysyd4Gf/Weather-app.png',
+    image: WeatherAppImg,
     title: 'Weather App',
     description: 'Built With: html/scss/js/React/redux/API',
     github: 'https://github.com/digia3d/weather_app',
@@ -30,7 +39,7 @@ const data = [
   },
   {
     id: 4,
-    image: 'https://i.ibb.co/BnZpSj7/cat-galery-home.png',
+    image: CatGaleryImg,
     title: 'Cats Gallery',
     description: 'Built With: Javascript, Html, Css, Jest, Webpack',
     github: 'https://github.com/digia3d/cat-gallery',
@@ -38,7 +47,7 @@ const data = [
   },
   {
     id: 5,
-    image: 'https://i.ibb.co/bJfSWh5/You-Tube.png',
+    image: YouTubeImg,
     title: 'YouTube Clone',
     description: 'Built With: HTML5 and CSS3',
     github: 'https://github.com/digia3d/YouTube-clone',
@@ -46,38 +55,36 @@ const data = [
   },
   {
     id: 6,
-    image: 'https://i.ibb.co/Xykp9Nf/Screenshot-from-Hogwarts.png',
+    image: HarryPotterImg,
     title: 'Hogvarts School of Magic',
     description: 'Built With: React, Redux, Linters (React & Redux), Git',
     github: 'https://github.com/digia3d/Hogwarts',
     demo: 'https://hogwartsschool.netlify.app',
   },
+  {
+    id: 7,
+    image: AwesomeBooksImg,
+    title: 'Awesome Books',
+    description: 'Built With: React, Redux, Linters (React & Redux), Git',
+    github: 'https://github.com/digia3d/awesome-books-update',
+    demo: 'https://digia3d.github.io/awesome-books-update/',
+  },
 ];
 
 const newData = [
   {
-    id: 7,
-    image: 'https://i.ibb.co/tCyGhb8/Horoskop-Helanke.png',
+    id: 8,
+    image: HoroskopHelankefbImg,
     title: 'Facebook Page',
     description: 'Part of Social Media Marketing campaign for local business',
     facebook: ' https://www.facebook.com/horoskophelanke',
-    page: 'https://digitalnimarketinga3d.com/2021/05/15/helanke-horoskop-kompleti/',
-  },
-  {
-    id: 8,
-    image: 'https://i.ibb.co/ykJxvTL/A3-Dfacebook.png',
-    title: 'A3D Facebook Page',
-    description: 'Part of Social Media Marketing campaign for Marketing Agency',
-    facebook: 'https://www.facebook.com/a3ddigital',
-    page: ' https://digitalnimarketinga3d.com/2021/05/13/digitalni-marketing-i-ja/',
   },
   {
     id: 9,
-    image: 'https://i.ibb.co/Rjqgz5p/Sajt.png',
-    title: 'Digitalni Marketing A3D',
-    description: 'Website made in wordpress',
+    image: A3DfbImg,
+    title: 'A3D Facebook Page',
+    description: 'Part of Social Media Marketing campaign for Marketing Agency',
     facebook: 'https://www.facebook.com/a3ddigital',
-    page: 'https://digitalnimarketinga3d.com/o-nama/',
   },
 ];
 
@@ -126,7 +133,7 @@ function Portfolio() {
       <section className="container portfolio__container">
         {
           newData.map(({
-            id, image, title, description, facebook, page,
+            id, image, title, description, facebook,
           }) => (
             <article
               key={id}
@@ -148,19 +155,10 @@ function Portfolio() {
                 >
                   Page
                 </a>
-                <a
-                  href={page}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Website
-                </a>
               </div>
             </article>
           ))
         }
-
       </section>
     </section>
   );
